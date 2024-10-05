@@ -3,6 +3,7 @@
 Welcome to **BotForge**, an open-source project dedicated to advancing NLP-based solutions. This repository offers a series of challenges, each tagged with a level and a problem statement (PS) number, to guide contributors through various aspects of natural language processing and AI-driven conversation systems. Whether you're interested in prompt engineering, building interactive chatbots, or fine-tuning large language models (LLMs), BotForge provides a platform for developing and sharing innovative solutions.
 
 ## Task Levels Overview
+For more details of each Level refer the `README.md` under appropriate directory (`Level0`, `Level1`, `Level2`, or `Level3`)
 
 ### Level 0: Prompt Engineering (PS 0.1)
 
@@ -87,4 +88,43 @@ BotForge provides an opportunity to develop and share NLP-based solutions in a c
 
 ---
 
-Join **BotForge** today and contribute to the future of NLP and conversational AI systems!
+## Additional Resources
+
+To assist you in completing your tasks, here are some valuable resources for each level:
+
+- **Prompt Engineering & NLP**:
+  - [OpenAI GPT Documentation](https://beta.openai.com/docs/)
+  - [Hugging Face Transformers](https://huggingface.co/transformers/)
+
+- **Chat Interface Development**:
+  - [React.js Documentation](https://reactjs.org/docs/getting-started.html)
+  - [Building Chatbots with React](https://www.freecodecamp.org/news/how-to-build-a-chatbot-with-react/)
+
+- **Discord Bot Development**:
+  - [discord.py Documentation](https://discordpy.readthedocs.io/en/stable/)
+  - [Discord.js Guide](https://discordjs.guide/)
+
+- **LLM Fine-Tuning**:
+  - [Hugging Face Fine-Tuning Guide](https://huggingface.co/docs/transformers/training)
+  - [TensorFlow Model Fine-Tuning](https://www.tensorflow.org/tutorials/text/transfer_learning_with_hub)
+
+---
+
+## Community Impact
+
+**BotForge** is more than just a series of challenges; it is a platform for fostering global collaboration and knowledge sharing within the developer community. By contributing to BotForge, you help build a repository of high-quality NLP and bot development solutions that benefit individuals and organizations worldwide. Your contributions can inspire others, facilitate learning, and drive innovation in the field of conversational AI and automation.
+
+---
+
+## How to Get Help
+
+If you encounter any issues or have questions while working on your tasks, feel free to:
+
+- **Open an Issue**: Submit an issue on the [BotForge Issues Page](https://github.com/MU-Enigma/BotForge/issues) detailing your problem or question.
+- **Join the Community**: Participate in discussions, seek feedback, and collaborate with other contributors through the repository’s communication channels.
+- **Refer to Documentation**: Utilize the existing documentation and resources to troubleshoot common problems.
+
+---
+
+Join **BotForge** today and contribute your expertise to a global initiative that’s shaping the future of NLP and bot development. Together, we can create impactful solutions and drive the evolution of conversational AI!
+
