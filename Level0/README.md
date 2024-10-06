@@ -60,13 +60,15 @@ In this task, you are required to design a prompt that convinces an AI to believ
      - **Prompt Adjustments**: Detailed explanations of how and why you refined the prompt.
      - **Iterations**: All versions of the prompt with notes on changes.
      - **Conclusion**: A summary of the effectiveness of your final prompt.
+     - **important:** add Screenshot of conversation 
 
 7. **Add the Documentation File**
 
-   - Place your documentation file in your username's folder:
+   - Place your documentation file and screenshort in your username's folder:
 
      ```bash
      cp <your_documentation>.md <your_username>/
+     cp <screenshort>.png <your_username>/
      ```
 
 8. **Add and Commit Your Changes**
