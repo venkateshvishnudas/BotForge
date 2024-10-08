@@ -21,20 +21,19 @@ For more details of each Level refer the `README.md` under appropriate directory
 
 ---
 
-### Level 1: Building an AI-Powered Chat Interface (PS 1.1)
+### Level 1: Installing and Running a Chat Interface with an LLM (PS 1.1)
 
-- **Objective**: Create a simple chat interface to interact with an open-source Large Language Model (LLM) in real-time, showcasing basic AI-driven conversation capabilities.
+- **Objective**: Install and run a pre-built chat interface like **Ollama** or **Oogabooga** to interact with open-source LLMs such as **LLaMA** or **GPT-Neo**. Document the installation and execution process, and submit screenshots of the interaction along with a brief report.
 
 - **Problem Statement**:
-  - Implement a chat interface to interact with an open-source LLM.
-  - Set up the interface locally or on Google Colab, and test it by having real-time conversations with the model.
-
+   - Successfully install the chosen chat interface.
+   - Run and interact with the LLM, ensuring clear documentation and screenshots of the conversation.
+   
 - **What to Submit**:
-  - Provide step-by-step instructions on how to set up the LLM and the chat interface, ensuring it can be replicated by others.
-  - Include screenshots of the interface and conversation logs.
-  - Submit any `.ipynb` files or code along with detailed instructions on how to run the interface.
-  - Add everything to the `Level1` directory with proper documentation.
-
+  - A folder named after your GitHub username containing screenshots of the chat interface and interaction with the LLM.
+  - A detailed documentation file (README.md or .txt) outlining the installation steps, running process, and any challenges faced.
+  - Add the screenshots and documentation to the folder, commit your changes, and open a Pull Request on the **BotForge** repository for review.
+ 
 ---
 
 ### Level 2: Developing a Discord Bot (PS 2.1)

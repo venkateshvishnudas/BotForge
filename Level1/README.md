@@ -1,16 +1,15 @@
 
-# Level 1: Building an AI-Powered Chat Interface (PS 1.1)
+# Level 1:  Installing and Running a Chat Interface with an LLM (PS 1.1)
 
 ## Task Overview
 
-In this task, you will develop a simple chat interface that allows users to interact with a Large Language Model (LLM) in real-time. This will demonstrate your ability to integrate AI-driven conversational capabilities into a user-friendly interface.
+In this task, you will install and run a **pre-built chat interface** powered by an **open-source Large Language Model (LLM)**. Open-source models like **LLaMA** provide powerful, flexible options for conversational AI. You will use readily available interfaces such as **Ollama** or **Oogabooga** to interact with these models. Your task is to successfully install, run the interface, interact with the LLM, and capture screenshots of the conversation.
 
-## Objective
+### Objective
 
-- Create an interactive chat interface powered by an LLM.
-- Ensure seamless communication between the user and the AI.
-- Document the setup and usage process for replication.
-
+- Install a pre-built interface like **Ollama** or **Oogabooga** that enables interaction with open-source LLMs like **LLaMA** or **GPT-Neo**.
+- Run the interface, converse with the LLM, and document the installation and execution steps.
+- Capture screenshots of the interaction and submit them along with a brief report on the process.
 ## Steps to Contribute
 
 1. **Fork the Repository**
@@ -41,55 +40,70 @@ In this task, you will develop a simple chat interface that allows users to inte
      mkdir <your_username>
      ```
 
-5. **Develop the Chat Interface**
+5. **Install a Pre-Built Chat Interface (e.g., Ollama or Oogabooga)**
 
-   - **Set Up the Environment**:
-     - Choose a platform (e.g., Google Colab, local machine) and set up the necessary environment for running the chat interface.
-   
-   - **Implement the Interface**:
-     - Develop the chat interface using your preferred technology stack (e.g., React.js, HTML/CSS/JavaScript).
-     - Integrate the LLM API to handle user inputs and generate AI responses.
-   
-   - **Test the Interface**:
-     - Conduct thorough testing to ensure the chat interface functions smoothly and handles basic interactions effectively.
+   - Choose a pre-built interface that supports open-source models. Some popular options are:
+     - **[Ollama](https://ollama.com/)**: A user-friendly interface for running LLaMA and similar models locally on your machine.
+     - **[Oogabooga](https://github.com/oobabooga/text-generation-webui)**: An advanced web interface for various open-source models, including LLaMA, GPT-Neo, and BLOOM.
+     - Recommended resource - **[AItreprenur on YouTube](https://youtu.be/C-7jGYOGvy4?si=OBlc4Beb_xyvhe1_)**.
 
-6. **Document the Process**
 
-   - In a `README.md` file, provide detailed instructions on how to set up and run the chat interface. Include:
-     - **Installation Steps**: Dependencies and how to install them.
-     - **Running the Interface**: Commands and procedures to launch the chat interface.
-     - **Usage Guide**: How to interact with the chat interface.
-     - **Screenshots**: Visual representations of the interface and sample conversations.
+6. **Download and Use an Open-Source Model**
 
-7. **Add the Documentation and Related Files**
+   - You can choose from a variety of **open-source models** :
+     - **LLaMA**: [Meta’s LLaMA](https://huggingface.co/Meta) is available via Hugging Face.
+     - **GPT-Neo**: Available from [EleutherAI](https://huggingface.co/EleutherAI/gpt-neo-1.3B).
+     - **BLOOM**: An open-source multilingual model available from [BigScience](https://huggingface.co/bigscience/bloom).
 
-   - Place all relevant files, including the `README.md`, code files, and screenshots, in your username's folder:
 
-     ```bash
-     cp <your_files> <your_username>/
-     ```
+7. **Run and Interact with the LLM**
 
-8. **Add and Commit Your Changes**
+   - Interact with the model by asking it questions or giving it prompts.
+   - Test different inputs and observe the LLM’s responses.
 
-   - Stage the changes:
+8. **Capture the Conversation**
 
-     ```bash
-     git add .
-     ```
+   - Take **screenshots** of your conversation with the LLM, showing both the interface and the model’s responses.
 
-   - Commit your changes with a meaningful message:
+9. **Document the Process**
 
-     ```bash
-     git commit -m "Added Level 1: Building an AI-Powered Chat Interface by <your_username>"
-     ```
+   - In a `README.md` or `.txt` file, document:
+     - **Installation Steps**: Detail the steps you followed to install the interface and model.
+     - **Running the Interface**: Describe how you launched the chat interface and interacted with the LLM.
+     - **Challenges (if any)**: Note any issues you encountered during installation or interaction and how you resolved them.
 
-9. **Push Your Changes and Open a Pull Request**
+10. **Submit Screenshots and Documentation**
 
-   - Push your changes to your forked repository:
+   - Add the screenshots of the conversation and the documentation to your folder.
 
-     ```bash
-     git push origin main
-     ```
+   Example:
 
-   - Open a Pull Request (PR) on the original **BotForge** repository to submit your work for review.
+   ```bash
+   cp <your_screenshots>.png <your_username>/
+   cp README.md <your_username>/
+   ```
+
+11. **Add and Commit Your Changes**
+
+    - Stage your changes:
+
+    ```bash
+    git add .
+    ```
+
+    - Commit your changes with a descriptive message:
+
+    ```bash
+    git commit -m "Added Level 1 task with Ollama/Oogabooga by <your_username>"
+    ```
+
+12. **Push Your Changes and Open a Pull Request**
+
+    - Push your changes to your forked repository:
+
+    ```bash
+    git push origin main
+    ```
+    
+13. Open a Pull Request (PR) on the original **BotForge** repository to submit your work for review.
 
