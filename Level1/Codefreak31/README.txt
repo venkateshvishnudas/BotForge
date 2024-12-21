@@ -10,10 +10,7 @@ pip install google-generativeai
 pip install python-dotenv
 pip install requests
 
-now after installing all these you need to set your own google gemini api key from the link: 
-
-https://aistudio.google.com/app/apikey?_gl=1*110liyo*_ga*MTA2NzAyNTM4My4xNzI4MDE5ODg5*_ga_P1DBVKWT6V*MTcyODEwNTU3OC4zLjEuMTcyODEwNTU5Ni40Mi4wLjIxMTYzNDI0NTA.
-
+now after installing all these you need to set your own google gemini api key from google studio.
 and add the api key in the .env file.
 
 
